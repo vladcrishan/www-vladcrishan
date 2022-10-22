@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Hi, I'm Vlad." />
+    <meta name="author" content="vladcrishan" />
+    <title>vladcrishan</title>
+    <style>
+      * {
+        font-family: Avenir-light, AvenirLTStd-Light;
+        font-weight: 500;
+        align-items: baseline;
+      }
+
+      body {
+        height: 95vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #555;
+      }
+
+      #container {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+      }
+
+      #title {
+        display: flex;
+        align-items: baseline;
+        margin-bottom: 0.5rem;
+      }
+
+      #totallyStoleThisFromBearApp {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-right: 0.5rem;
+        color: #b0aeae;
+      }
+
+      #totallyStoleThisFromBearApp span {
+        font-size: 0.8rem;
+        font-weight: 600;
+      }
+
+      .bold {
+        font-weight: 900;
+      }
+
+      ion-icon {
+        color: #b0aeae;
+      }
+
+      ion-icon:hover {
+        cursor: pointer;
+        color: #555;
+      }
+
+      @media (max-width: 480px) {
+        * {
+          font-size: 1rem;
+        }
+
+        ion-icon {
+          font-size: 16px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="container">
+      <h1 id="title">
+        <div id="totallyStoleThisFromBearApp">H<span>1</span></div>
+        <div>Hey, I'm vlad and I <span class="bold">build</span> 🧱 stuff.</div>
+      </h1>
+
+      <div>
+        <a
+          href="mailto:vlad.crishan20@gmail.com?subject=I want to work with you!"
+          ><ion-icon name="mail" size="large" href=""></ion-icon
+        ></a>
+
+        <a href="https://github.com/vladcrishan" target="_blank"
+          ><ion-icon name="logo-github" size="large" href=""></ion-icon
+        ></a>
+
+        <a href="https://twitter.com/VladCrishan" target="_blank"
+          ><ion-icon name="logo-twitter" size="large" href=""></ion-icon
+        ></a>
+
+        <a
+          href="https://www.linkedin.com/in/vlad-cri%C8%99an-266421128/"
+          target="_blank"
+          ><ion-icon name="logo-linkedin" size="large" href=""></ion-icon
+        ></a>
+      </div>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
